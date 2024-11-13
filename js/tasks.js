@@ -87,22 +87,38 @@
 //? "You ordered a [size] [coffeeType] coffee. Total price is [totalPrice]$.",
 //? де totalPrice — загальна вартість із врахуванням знижки, якщо вона є.
 
-let coffeeType;
-let coffeSize = prompt("What size would you like? small - 5$, medium - 7$, large - 9$");
-let coffePrice;
+// Coffee types vars
+// const latte = "latte";
+// const capuccino = "capuccino";
 
-if(coffeSize.toLowerCase() = "small"){
-    coffePrice = 5;
-}else if(coffeSize.toLowerCase() = "medium"){
-    coffePrice = 7;
-} else if(coffeSize.toLowerCase() = "large"){
-    coffePrice = 9;
-}
+// console.log("--------------------- Welcome to our cafe, fren! ---------------------");
+// console.log(`[OUR MENU:]
+// -${latte}: a milk coffee that boasts a silky layer of foam as a real highlight to the drink.
+// -${capuccino}:a beloved espresso-based hot coffee drink made with layering of espresso, steamed milk, and milk foam on top; 
+// `)
 
-const correctPromo = "COFFEE20";
+// // General vars
+// let coffeeType;
+// let coffeSize = prompt("What size would you like? small - 5$, medium - 7$, large - 9$");
+// let coffePrice;
+// let coffeeQuantity = prompt('How many cups would you like?');
 
-let totalPrice ;
 
-let userPromo = prompt('Write promo to recieve a discount');
-let hasDiscount = userPromo === correctPromo ? true : false;
+
+// // Cups size
+// if(coffeSize.toLowerCase() = "small"){
+//     coffePrice = 5;
+// }else if(coffeSize.toLowerCase() = "medium"){
+//     coffePrice = 7;
+// } else if(coffeSize.toLowerCase() = "large"){
+//     coffePrice = 9;
+// }
+
+
+// const correctPromo = "COFFEE20";
+
+// let totalPrice ;
+
+// let userPromo = prompt('Write promo to recieve a discount');
+// let hasDiscount = userPromo === correctPromo ? true : false;
 
